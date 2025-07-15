@@ -118,8 +118,8 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 1.  **Clonez le dépôt** (ou téléchargez le fichier `fav-v2.1.py` et les icônes) :
     ```bash
-    git clone [https://github.com/KiralyGeddon/Fav-Me](https://github.com/KiralyGeddon/Fav-Me)
-    cd Fav-Me/script # Accédez au répertoire du projet
+   git clone https://github.com/Nounoursss93/AccesRapide
+    cd AccesRapide/Fav-Me/script  # Accédez au répertoire du projet # Accédez au répertoire du projet
     ```
 
 2.  **Installez les dépendances Python :**
@@ -132,7 +132,7 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 Pour lancer l'application directement depuis le script Python :
 
 ```bash
-python fav-v2.1.py
+python AccesRapide.py
 ```
 ### Construire l'Exécutable (.exe) avec PyInstaller
 
@@ -145,21 +145,21 @@ python fav-v2.1.py
 
 2.  **Naviguez vers le répertoire du script** :
   
-    Assurez-vous d'être dans le répertoire `script` où se trouve `fav-v2.1.py`.
+    Assurez-vous d'être dans le répertoire `script` où se trouve `AccesRapide.py`.
     ```bash
-    cd Fav-Me/script
+    cd AccesRapide/Fav-Me/script
     ```
 
 3.  **Exécutez PyInstaller** :
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --icon="Fav-Me.ico" --add-data "icons;icons" --add-data "settings.json;." --add-data "favs.json;." "fav-v2.1.py"
+    pyinstaller --noconfirm --onefile --windowed --icon="AccesRapide.ico" --add-data "Favoris_Data/icons;icons" --add-data "Favoris_Data/settings.json;." --add-data "Favoris_Data/favs.json;." "AccesRapide.py"
     ```
     * `--noconfirm` : Écrase les anciens fichiers `dist/` et `build/` sans confirmation.
     * `--onefile` : Crée un seul fichier exécutable.
     * `--windowed` : Empêche l'ouverture d'une console (pour les applications GUI).
-    * `--icon="Fav-Me.ico"` : Spécifie l'icône de l'exécutable (assurez-vous que `Fav-Me.ico` est dans le même répertoire ou spécifiez le chemin complet).
-    * `--add-data "icons;icons"` : Inclut le dossier `icons` dans l'exécutable. Le premier `icons` est le chemin de la source, le second est le chemin de destination dans le bundle.
-    * `--add-data "settings.json;."` et `--add-data "favs.json;."` : Incluent les fichiers de configuration et de données directement à la racine du bundle.
+    * `--icon="AccesRapide.ico" : Spécifie l'icône de l'exécutable (assurez-vous que AccesRapide.ico est dans le même répertoire ou spécifiez le chemin complet).
+    * `--add-data "Favoris_Data/icons;icons" : Inclut le dossier icons dans l'exécutable.
+    * `--add-data "Favoris_Data/settings.json;." et --add-data "Favoris_Data/favs.json;." : Incluent les fichiers de config et données.
 
     L'exécutable sera généré dans le dossier `dist/`.
 
@@ -171,46 +171,42 @@ Une fois construit avec PyInstaller, vous trouverez un fichier `.exe` (ou l'équ
 
 Une version est déjà fournie dans le dossier `Version Portable/` à partir du script actuel.
 
-### Installateur Windows (Inno Setup)
-
-Pour une distribution plus conviviale, une versione avec instalateur pour Windows est fourni dans le dossier `installateur/`.
-
-Créé avec INNO Setup depuis [https://jrsoftware.org/isinfo.php](https://jrsoftware.org/isinfo.php).
-
-Cet installateur guidera l'utilisateur à travers le processus d'installation.
 
 ## 🖥️ Utilisation
 
 1.  **Lancement de l'Application :**
-    * Si vous exécutez le script Python : `python fav-v2.1.py`
-    * Si vous utilisez l'exécutable : Double-cliquez sur `fav-v2.1.exe` dans le dossier `dist/`.
+    * Si vous exécutez le script Python : `python AccesRapide.py`
+    * Si vous utilisez l'exécutable : Double-cliquez sur `AccesRapide.exe` dans le dossier `dist/`.
     * Si vous avez utilisé l'installateur : Lancez l'application depuis le menu Démarrer ou le raccourci sur le bureau.
 
 2.  **Gestion des Favoris :**
-    * **Ajouter :** Cliquez sur le bouton `+` pour ajouter un nouveau dossier ou site web favori.
-    * **Modifier :** Cliquez sur l'icône d'édition (crayon) à côté d'un élément pour modifier son nom ou son chemin/URL.
-    * **Supprimer :** Cliquez sur l'icône de suppression (poubelle) à côté d'un élément pour le retirer de votre liste.
+    * **Ajouter :** Cliquez sur le bouton `Ajouter favoris` pour ajouter un nouveau dossier ou site web favori.
+    * **Modifier :** Cliquez sur l'icône d'édition (Outils) à côté d'un élément pour modifier son nom ou son chemin/URL.
+    * **Supprimer :** Cliquez sur l'icône de suppression (Croix blanche sur carré rouge) à côté d'un élément pour le retirer de votre liste.
     * **Ouvrir :** Cliquez sur le nom d'un dossier ou d'un site web pour l'ouvrir.
 
 3.  **Bascule entre Vues :**
     * Utilisez le bouton en bas de l'interface pour passer de la vue "Dossiers" à la vue "Sites Web" et inversement.
 
 4.  **Paramètres de Thème :**
-    * Cliquez sur l'icône d'engrenage (paramètres) pour ouvrir la fenêtre des préférences.
-    * Choisissez votre mode d'apparence et votre couleur d'accentuation. Les modifications sont appliquées instantanément et sauvegardées.
+    * Choisissez votre mode d'apparence. Les modifications sont appliquées instantanément et sauvegardées.
 
 ## 🗂️ Stockage des Données et Paramètres
 
-Fav-Me sauvegarde automatiquement vos données et paramètres dans des fichiers JSON :
+AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichiers JSON situés dans le dossier de données :
 
-* `favorites_config.json` : Contient la liste de tous vos dossiers et sites web favoris.
-* `app_settings.json` : Contient les préférences de thème (mode d'apparence et couleur d'accentuation).
+    favs.json : contient la liste complète de vos dossiers et sites web favoris.
 
-Ces fichiers sont créés et mis à jour dans le même répertoire que l'exécutable de l'application. Si vous utilisez l'installateur, ils seront placés dans le dossier des données de l'application de l'utilisateur (généralement `C:\Users\<your_user>\AppData\Local\FavMeData` sur Windows) pour une gestion propre des données utilisateur.
+    settings.json : stocke les préférences utilisateur comme le thème et la couleur d’accentuation.
+
+Les icônes personnalisées associées aux favoris sont conservées dans le sous-dossier icons/.
+
+
+Ces fichiers sont créés et mis à jour dans le même répertoire que l'exécutable de l'application.
 
 ## 🤝 Contribution
 
-Merci à [Yann aka Nounoursss93](https://github.com/Nounoursss93) pour l'idée de base! 
+Merci à [Samuel aka Nounoursss93(https://github.com/KiralyGeddon)] pour la mise en page! 
 
 Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration, des rapports de bugs ou de nouvelles fonctionnalités à proposer, n'hésitez pas à :
 
