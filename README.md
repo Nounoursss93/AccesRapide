@@ -146,7 +146,7 @@ python AccesRapide.py
   
     Assurez-vous d'être dans le répertoire `script` où se trouve `AccesRapide.py`.
     ```bash
-    cd AccesRapide/script
+    cd "C:\Users\$env:USERNAME\AccesRapide\Script"
     ```
 
 3.  **Exécutez PyInstaller** :
