@@ -23,7 +23,6 @@ Bienvenue sur **AccesRapide**, votre application de bureau intuitive pour gérer
     -   [Construire l'Exécutable (.exe) avec PyInstaller](#construire-lexécutable-exe-avec-pyinstaller)
 -   [📦 Versions Distribuées](#-versions-distribuées)
     -   [Exécutable Autonome](#exécutable-autonome)
-    -   [Installateur Windows (Inno Setup)](#installateur-windows-inno-setup)
 -   [🖥️ Utilisation](#️-utilisation)
 -   [🗂️ Stockage des Données et Paramètres](#️-stockage-des-données-et-paramètres)
 -   [🤝 Contribution](#-contribution)
