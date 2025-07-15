@@ -151,7 +151,7 @@ python AccesRapide.py
 
 3.  **Exécutez PyInstaller** :
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --icon="AccesRapide.ico" --add-data "Favoris_Data/icons;icons" --add-data "Favoris_Data/settings.json;." --add-data "Favoris_Data/favs.json;." "AccesRapide.py"
+    pyinstaller --noconfirm --onefile --windowed --icon="Logo_Raccourci.png" --add-data "Favoris_Data/icons;icons" --add-data "Favoris_Data/settings.json;." --add-data "Favoris_Data/favs.json;." "AccesRapide.py"
     ```
     * `--noconfirm` : Écrase les anciens fichiers `dist/` et `build/` sans confirmation.
     * `--onefile` : Crée un seul fichier exécutable.
