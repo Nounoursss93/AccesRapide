@@ -115,7 +115,7 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 ### Installation
 
-1.  **Clonez le dépôt** (ou téléchargez le fichier `fav-v2.1.py` et les icônes) :
+1.  **Clonez le dépôt** (ou téléchargez le fichier `AccesRapide.py` et les icônes) :
     ```bash
    git clone https://github.com/Nounoursss93/AccesRapide
     cd AccesRapide/Fav-Me/script  # Accédez au répertoire du projet # Accédez au répertoire du projet
