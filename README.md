@@ -156,7 +156,7 @@ python AccesRapide.py
     * `--noconfirm` : Écrase les anciens fichiers `dist/` et `build/` sans confirmation.
     * `--onefile` : Crée un seul fichier exécutable.
     * `--windowed` : Empêche l'ouverture d'une console (pour les applications GUI).
-    * `--icon="AccesRapide.ico" : Spécifie l'icône de l'exécutable (assurez-vous que AccesRapide.ico est dans le même répertoire ou spécifiez le chemin complet).
+    * `--icon="Logo_Raccourci.png" : Spécifie l'icône de l'exécutable (assurez-vous que Logo_Raccourci.png est dans le même répertoire ou spécifiez le chemin complet).
     * `--add-data "Favoris_Data/icons;icons" : Inclut le dossier icons dans l'exécutable.
     * `--add-data "Favoris_Data/settings.json;." et --add-data "Favoris_Data/favs.json;." : Incluent les fichiers de config et données.
 
@@ -168,7 +168,7 @@ python AccesRapide.py
 
 Une fois construit avec PyInstaller, vous trouverez un fichier `.exe` (ou l'équivalent pour votre OS) dans le répertoire `dist/`. Vous pouvez le copier et l'exécuter directement sur n'importe quel système Windows sans avoir besoin d'installer Python ou des dépendances.
 
-Une version est déjà fournie dans le dossier `Version Portable/` à partir du script actuel.
+Une version est déjà fournie dans le dossier `Application` à partir du script actuel.
 
 
 ## 🖥️ Utilisation
@@ -188,24 +188,24 @@ Une version est déjà fournie dans le dossier `Version Portable/` à partir du 
     * Utilisez le bouton en bas de l'interface pour passer de la vue "Dossiers" à la vue "Sites Web" et inversement.
 
 4.  **Paramètres de Thème :**
-    * Choisissez votre mode d'apparence. Les modifications sont appliquées instantanément et sauvegardées.
+    * Choisissez votre mode d'apparence ( Sombre ou Clair ). Les modifications sont appliquées instantanément et sauvegardées.
 
 ## 🗂️ Stockage des Données et Paramètres
 
-AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichiers JSON situés dans le dossier de données :
+AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichiers .JSON situés dans le dossier de données :
 
-    favs.json : contient la liste complète de vos dossiers et sites web favoris.
+    folders.json : contient la liste complète de vos dossiers.
 
-    settings.json : stocke les préférences utilisateur comme le thème et la couleur d’accentuation.
+    websites.json : contient la liste complète de vos sites web favoris.
 
-Les icônes personnalisées associées aux favoris sont conservées dans le sous-dossier icons/.
+Les icônes personnalisées associées aux favoris sont conservées dans le dossier icons/ et vos favicons dans le dossier favicons/.
 
 
 Ces fichiers sont créés et mis à jour dans le même répertoire que l'exécutable de l'application.
 
 ## 🤝 Contribution
 
-Merci à [Samuel aka Nounoursss93(https://github.com/KiralyGeddon)] pour la mise en page! 
+Merci à [Samuel aka KiralyGeddon(https://github.com/KiralyGeddon)] pour la mise en page! 
 
 Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration, des rapports de bugs ou de nouvelles fonctionnalités à proposer, n'hésitez pas à :
 
