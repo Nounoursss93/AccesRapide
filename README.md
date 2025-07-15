@@ -30,9 +30,9 @@ Bienvenue sur **AccesRapide**, votre application de bureau intuitive pour gérer
 -   [✉️ Contact](#️-contact)
 
 
-## 🌟 À Propos de Fav-Me
+## 🌟 À Propos de AccesRapide
 
-**Fav-Me** est une application de bureau légère et élégante conçue pour simplifier votre navigation quotidienne. Que ce soit pour accéder rapidement à un dossier de projet fréquemment utilisé ou pour lancer votre site web préféré, Fav-Me met tout à portée de main.
+**AccesRapide** est une application de bureau légère et élégante conçue pour simplifier votre navigation quotidienne. Que ce soit pour accéder rapidement à un dossier de projet fréquemment utilisé ou pour lancer votre site web préféré, Fav-Me met tout à portée de main.
 
 Construite avec `CustomTkinter` pour une interface utilisateur moderne et personnalisable, elle offre une expérience fluide et agréable. Vos favoris et vos préférences de thème sont sauvegardés automatiquement, pour que vous retrouviez votre environnement de travail exactement comme vous l'avez laissé.
 
@@ -42,6 +42,8 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Ajoutez n'importe quel dossier de votre système de fichiers.
     * Ouvrez les dossiers directement via l'explorateur (Windows) ou le Finder (macOS).
     * Modifiez facilement le nom ou le chemin d'un dossier existant.
+    * icone par défaut pour les dossier.
+    * Choisir l'icone de votre choix parmis un catalogue.
     * Supprimez les dossiers devenus obsolètes.
     * Vérification automatique de l'existence des chemins de dossiers au démarrage.
 
@@ -49,6 +51,8 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Enregistrez vos URLs préférées.
     * Ouvrez les sites web dans votre navigateur par défaut.
     * **Récupération automatique des Favicons** : L'application tente de télécharger et d'afficher l'icône de chaque site web pour une identification visuelle rapide.
+    * icone par défaut pour les liens dont les site ne permettent pas la récupération des icones.
+    * Choisir l'icone de votre choix parmis un catalogue.
     * Modifiez l'URL ou le nom d'un site web.
     * Supprimez les sites web de votre liste.
 
@@ -56,8 +60,8 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Passez instantanément de la vue des dossiers à la vue des sites web grâce à un bouton dédié.
 
 * **🎨 Thèmes Personnalisables :**
-    * Choisissez entre les modes d'apparence **Sombre**, **Clair** ou **Système**.
-    * Sélectionnez votre couleur d'accentuation préférée parmi les thèmes CustomTkinter disponibles (`blue`, `green`, `dark-blue`).
+    * Choisissez entre les modes d'apparence **Sombre** ou **Clair**.
+
 
 * **💾 Persistance des Données :**
     * Tous vos favoris et vos paramètres de thème sont automatiquement sauvegardés dans des fichiers JSON.
