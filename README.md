@@ -128,11 +128,11 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 ### Exécuter le Script Python
 
-Pour lancer l'application directement depuis le script Python :
+    Pour lancer l'application directement depuis le script Python :
 
-```bash
-python AccesRapide.py
-```
+    ```bash
+    python AccesRapide.py
+    ```
 ### Construire l'Exécutable (.exe) avec PyInstaller
 
 1.  **Installer PyInstaller** :
