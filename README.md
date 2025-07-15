@@ -118,7 +118,7 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 1.  **Clonez le dépôt** (ou téléchargez le fichier `AccesRapide.py` et les icônes) :
     ```bash
     git clone https://github.com/Nounoursss93/AccesRapide
-    cd AccesRapide/Fav-Me/script  # Accédez au répertoire du projet # Accédez au répertoire du projet
+    cd AccesRapide/script  # Accédez au répertoire du projet # Accédez au répertoire du projet
     ```
 
 2.  **Installez les dépendances Python :**
