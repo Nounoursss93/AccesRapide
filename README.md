@@ -51,7 +51,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Enregistrez vos URLs préférées.
     * Ouvrez les sites web dans votre navigateur par défaut.
     * **Récupération automatique des Favicons** : L'application tente de télécharger et d'afficher l'icône de chaque site web pour une identification visuelle rapide.
-    * icone par défaut pour les liens dont les site ne permettent pas la récupération des icones.
+    * icone par défaut pour les liens dont les sites ne permettent pas la récupération des icones.
     * Choisir l'icone de votre choix parmis un catalogue.
     * Modifiez l'URL ou le nom d'un site web.
     * Supprimez les sites web de votre liste.
@@ -68,7 +68,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **✨ Interface Intuitive :**
     * Design épuré et facile à utiliser grâce à CustomTkinter.
-    * Icônes dédiées pour chaque action (ajouter, modifier, supprimer, paramètres).
+    * Icônes dédiées pour chaque action (ajouter, modifier, supprimer).
 
 ## 📸 Aperçu
 
