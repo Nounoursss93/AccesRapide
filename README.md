@@ -151,7 +151,7 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 3.  **Exécutez PyInstaller** :
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --icon="Logo_Raccourci.png" --add-data "Favoris_Data/icons;icons" --add-data "Favoris_Data/settings.json;." --add-data "Favoris_Data/favs.json;." "AccesRapide.py"
+    pyinstaller --noconfirm --onefile --windowed --icon="Logo_Raccourci.png" --add-data "../Favoris_Data/Icons;Icons" --add-data "../Favoris_Data/Favicons;Favicons" --add-data "../Favoris_Data/data;data" "AccesRapide.py"
     ```
     * `--noconfirm` : Écrase les anciens fichiers `dist/` et `build/` sans confirmation.
     * `--onefile` : Crée un seul fichier exécutable.
