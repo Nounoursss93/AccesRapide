@@ -79,9 +79,9 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 ## 📸 Aperçu
 
-* **Écran principal - Vue Dossiers :**
+* **Écran principal - Vue Web thème sombre :**    **Écran principal - Vue Web thème clair :**
 
-    ![Application sombre](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Application%20sombre.jpg?raw=true)
+    ![Web sombre](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Sombre.jpg?raw=true)    ![Web Clair](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Clair.jpg?raw=true)
 
    
 * **Écran principal - Vue Sites Web (avec favicons) :**
