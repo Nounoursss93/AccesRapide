@@ -6,7 +6,7 @@
 ![Installer](https://img.shields.io/badge/Installer-InnoSetup-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-No%20License-red.svg)
 
-Bienvenue sur **AccesRapide**, votre application de bureau intuitive pour gérer et accéder rapidement à vos dossiers et sites web favoris. Fini les recherches fastidieuses ! Organisez tout en un seul endroit pratique et stylé.
+Bienvenue sur **AccesRapide**, Votre outil de bureau tout-en-un pour retrouver instantanément vos ressources essentielles. Une solution pratique, intuitive et esthétique pour rester organisé.
 
 ## 🚀 Table des Matières
 
@@ -31,39 +31,48 @@ Bienvenue sur **AccesRapide**, votre application de bureau intuitive pour gérer
 
 ## 🌟 À Propos de AccesRapide
 
-**AccesRapide** est une application de bureau légère et élégante conçue pour simplifier votre navigation quotidienne. Que ce soit pour accéder rapidement à un dossier de projet fréquemment utilisé ou pour lancer votre site web préféré, Fav-Me met tout à portée de main.
+**AccesRapide** est une application de bureau légère et élégante conçue pour simplifier votre navigation quotidienne. Que ce soit pour accéder rapidement à un dossier de projet fréquemment utilisé votre application favorite ou bien pour lancer votre site web préféré, AccesRapide met tout à portée de main.
 
-Construite avec `CustomTkinter` pour une interface utilisateur moderne et personnalisable, elle offre une expérience fluide et agréable. Vos favoris et vos préférences de thème sont sauvegardés automatiquement, pour que vous retrouviez votre environnement de travail exactement comme vous l'avez laissé.
+Construite avec `CustomTkinter` pour une interface utilisateur moderne et personnalisable, elle offre une expérience fluide et agréable. Vos favoris sont sauvegardés automatiquement, pour que vous retrouviez votre environnement de travail exactement comme vous l'avez laissé.
 
 ## 💡 Fonctionnalités Clés
 
 * **📁 Gestion des Dossiers Favoris :**
     * Ajoutez n'importe quel dossier de votre système de fichiers.
     * Ouvrez les dossiers directement via l'explorateur (Windows) ou le Finder (macOS).
-    * Modifiez facilement le nom ou le chemin d'un dossier existant.
-    * icone par défaut pour les dossier.
+    * Modifiez facilement le nom, l'icône ou le chemin d'un dossier existant.
+    * Icône par défaut pour les dossier.
     * Choisir l'icone de votre choix parmis un catalogue.
     * Supprimez les dossiers devenus obsolètes.
     * Vérification automatique de l'existence des chemins de dossiers au démarrage.
+ 
+ * **📁 Gestion des Applications Favorites :**
+    * Ajoutez votre application en renseignant le chemun ou se trouve son exécutable.
+    * Ouvrez les applications directement via l'explorateur (Windows).
+    * Modifiez facilement le nom, l'icône ou le chemin d'une application existante.
+    * Icône par défaut pour les application.
+    * Choisir l'icone de votre choix parmis un catalogue.
+    * Supprimez les applications devenus obsolètes.
+    * Vérification automatique de l'existence des chemins des applications au démarrage.
 
 * **🌐 Gestion des Sites Web Favoris :**
     * Enregistrez vos URLs préférées.
     * Ouvrez les sites web dans votre navigateur par défaut.
     * **Récupération automatique des Favicons** : L'application tente de télécharger et d'afficher l'icône de chaque site web pour une identification visuelle rapide.
-    * icone par défaut pour les liens dont les sites ne permettent pas la récupération des icones.
+    * Icône par défaut pour les liens dont les sites ne permettent pas la récupération des icones.
     * Choisir l'icone de votre choix parmis un catalogue.
-    * Modifiez l'URL ou le nom d'un site web.
-    * Supprimez les sites web de votre liste.
+    * Modifiez facilement l'URL, l'icône ou le nom d'un site web.
+    * Supprimez les sites web obsolètes de votre liste.
 
 * **🔄 Bascule Rapide :**
-    * Passez instantanément de la vue des dossiers à la vue des sites web grâce à un bouton dédié.
+    * Passez instantanément de la vue des dossiers à la vue des sites web ou encore à la vue de vos applications grâce aux boutons dédiés.
 
 * **🎨 Thèmes Personnalisables :**
     * Choisissez entre les modes d'apparence **Sombre** ou **Clair**.
 
 
 * **💾 Persistance des Données :**
-    * Tous vos favoris et vos paramètres de thème sont automatiquement sauvegardés dans des fichiers JSON.
+    * Tous vos favoris sont automatiquement sauvegardés dans des fichiers JSON.
 
 * **✨ Interface Intuitive :**
     * Design épuré et facile à utiliser grâce à CustomTkinter.
@@ -107,7 +116,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 ## 🚀 Démarrage Rapide
 
-Suivez ces étapes pour faire fonctionner Fav-Me sur votre machine locale.
+Suivez ces étapes pour faire fonctionner AccesRapide sur votre machine locale.
 
 ### Prérequis
 
