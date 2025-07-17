@@ -81,19 +81,16 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **Écran principal - Vue Web thème sombre :**                    **Écran principal - Vue Web thème clair :**
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-
-<div style="text-align: center;">
-  <p><strong>Web sombre</strong></p>
-  <img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20sombre.jpg?raw=true" alt="Web sombre" width="300"/>
-</div>
-
-<div style="text-align: center;">
-  <p><strong>Web clair</strong></p>
-  <img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20clair.jpg?raw=true" alt="Web clair" width="300"/>
-</div>
-
-</div>
+<table>
+  <tr>
+    <th style="text-align:center">Vue Web Foncé</th>
+    <th style="text-align:center">Vue Web Clair</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20sombre.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20clair.jpg?raw=true" width="400"/></td>
+  </tr>
+</table>
 
 
    
