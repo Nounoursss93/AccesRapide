@@ -211,7 +211,7 @@ AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichi
 
     applications.json : contient la liste complète de vos sites web favoris ( ce fichier sera crée lors de la première utilisation de AccesRapide ).
 
-    icones.json : contient l'association de vos icônes avec le favoris dossier , application ou Web associé.
+    icones.json : contient l'association de vos icônes avec le favoris dossier , application ou Web associé ( ce fichier est déjà pré-rempli pour que ce soit plus agréable au démarrage ).
 
 Les icônes personnalisées associées aux favoris sont conservées dans le dossier icons/ et vos favicons dans le dossier favicons/.
 
