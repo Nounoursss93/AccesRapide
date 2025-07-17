@@ -89,7 +89,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
    
 * **Fenêtre d'ajout/édition de favori :**
   
-    ![Ajout de Favori](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/3.png)
+    https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout%20favoris%20dossier.jpg
    
     ![Ajout de Dossier Favori](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/4.png)
 
