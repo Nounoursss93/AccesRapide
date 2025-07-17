@@ -1,0 +1,20 @@
+📁 Instructions d’installation de l’application Accès Rapide
+
+Pour que l'application fonctionne correctement, vous devez créer son répertoire de base.
+Veuillez suivre les étapes ci-dessous :
+
+    Ouvrez l’explorateur de fichiers.
+
+    Accédez au chemin suivant :
+    C:\Users\VotreNomUtilisateur\
+
+    Créez un nouveau dossier nommé :
+    AccesRapide
+
+    Placez dans ce dossier :
+
+        L’exécutable ou le dossier de l’application Accès Rapide
+
+        Le dossier Favoris_Data
+
+    ✅ Une fois ces éléments en place, l'application pourra démarrer et fonctionner normalement.
