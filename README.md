@@ -205,11 +205,11 @@ Une version est déjà fournie dans le dossier `Application` à partir du script
 
 AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichiers .JSON situés dans le dossier de données :
 
-    folders.json : contient la liste complète de vos dossiers.
+    folders.json : contient la liste complète de vos dossiers ( ce fichier sera crée lors de la première utilisation de AccesRapide ).
 
-    websites.json : contient la liste complète de vos sites web favoris.
+    websites.json : contient la liste complète de vos sites web favoris ( ce fichier sera crée lors de la première utilisation de AccesRapide ).
 
-    applications.json : contient la liste complète de vos sites web favoris.
+    applications.json : contient la liste complète de vos sites web favoris ( ce fichier sera crée lors de la première utilisation de AccesRapide ).
 
     icones.json : contient l'association de vos icônes avec le favoris dossier , application ou Web associé.
 
