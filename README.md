@@ -175,9 +175,12 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 ### Exécutable Autonome
 
+#### Option 1 : Création via PyInstaller
+
 Une fois construit avec PyInstaller, vous trouverez un fichier `.exe` (ou l'équivalent pour votre OS) dans le répertoire `dist/`. Vous pouvez le copier et l'exécuter directement sur n'importe quel système Windows sans avoir besoin d'installer Python ou des dépendances.
 
-Une version est déjà fournie dans le dossier `Application` à partir du script actuel.
+#### Option 2 : Exécutables et dossiers déjà créés
+Une version est déjà fournie dans le dossier `Application` à partir du script actuel avec les dossiers et fchiers nécessaire ainsi qu'un fichier texte indiquant les diférentes étapes à suivre.
 
 
 ## 🖥️ Utilisation
