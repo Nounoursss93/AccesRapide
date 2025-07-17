@@ -3,7 +3,6 @@
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)
 ![PyInstaller](https://img.shields.io/badge/Packaging-PyInstaller-orange.svg)
-![Installer](https://img.shields.io/badge/Installer-InnoSetup-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-No%20License-red.svg)
 
 Bienvenue sur **AccesRapide**, Votre outil de bureau tout-en-un pour retrouver instantanément vos ressources essentielles. Une solution pratique, intuitive et esthétique pour rester organisé.
