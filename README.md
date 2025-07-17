@@ -81,7 +81,13 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **Écran principal - Vue Dossiers :**
   
-    Images/Ajout favoris dossier.jpg
+    # Accès Rapide
+
+Ce projet permet d'ajouter rapidement des dossiers favoris.
+
+![Ajout favoris dossier](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout%20favoris%20## Installation
+Instructions à venir...
+
    
 * **Écran principal - Vue Sites Web (avec favicons) :**
   
