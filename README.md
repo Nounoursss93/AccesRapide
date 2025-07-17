@@ -81,7 +81,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **Écran principal - Vue Dossiers :**
   
-    https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout%20favoris%20dossier.jpg
+    Images/Ajout favoris dossier.jpg
    
 * **Écran principal - Vue Sites Web (avec favicons) :**
   
