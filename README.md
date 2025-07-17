@@ -191,13 +191,13 @@ Une version est déjà fournie dans le dossier `Application` à partir du script
     * Si vous avez utilisé l'installateur : Lancez l'application depuis le menu Démarrer ou le raccourci sur le bureau.
 
 2.  **Gestion des Favoris :**
-    * **Ajouter :** Cliquez sur le bouton `Ajouter favoris` pour ajouter un nouveau dossier ou site web favori.
-    * **Modifier :** Cliquez sur l'icône d'édition (Outils) à côté d'un élément pour modifier son nom ou son chemin/URL.
+    * **Ajouter :** Cliquez sur le bouton `Ajouter un favori` pour ajouter un nouveau dossier, application ou site web favori.
+    * **Modifier :** Cliquez sur l'icône d'édition (Outils) à côté d'un élément pour modifier son nom,son icône ou son chemin/URL.
     * **Supprimer :** Cliquez sur l'icône de suppression (Croix blanche sur carré rouge) à côté d'un élément pour le retirer de votre liste.
-    * **Ouvrir :** Cliquez sur le nom d'un dossier ou d'un site web pour l'ouvrir.
+    * **Ouvrir :** Cliquez sur le nom d'un dossier,d'une application ou d'un site web pour l'ouvrir.
 
 3.  **Bascule entre Vues :**
-    * Utilisez le bouton en bas de l'interface pour passer de la vue "Dossiers" à la vue "Sites Web" et inversement.
+    * Utilisez le bouton voulu en haut de l'interface pour passer de la vue "Dossier" à la vue "Application" ou à la vue "Web".
 
 4.  **Paramètres de Thème :**
     * Choisissez votre mode d'apparence ( Sombre ou Clair ). Les modifications sont appliquées instantanément et sauvegardées.
@@ -210,8 +210,11 @@ AccesRapide sauvegarde automatiquement vos favoris et paramètres dans des fichi
 
     websites.json : contient la liste complète de vos sites web favoris.
 
-Les icônes personnalisées associées aux favoris sont conservées dans le dossier icons/ et vos favicons dans le dossier favicons/.
+    applications.json : contient la liste complète de vos sites web favoris.
 
+    icones.json : contient l'association de vos icônes avec le favoris dossier , application ou Web associé.
+
+Les icônes personnalisées associées aux favoris sont conservées dans le dossier icons/ et vos favicons dans le dossier favicons/.
 
 Ces fichiers sont créés et mis à jour dans le même répertoire que l'exécutable de l'application.
 
