@@ -88,7 +88,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
   </tr>
   <tr>
     <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Sombre.jpg?raw=true" width="400"/></td>
-    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Clair.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Clair.jpg?raw=true" width="350"/></td>
   </tr>
 </table>
 
