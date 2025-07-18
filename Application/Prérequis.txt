@@ -1,20 +1,189 @@
-📁 Instructions d’installation de l’application Accès Rapide
+# Guide d'installation - AccesRapide
+## Logiciels et modules nécessaires pour créer l'exécutable
 
-Pour que l'application fonctionne correctement, vous devez créer son répertoire de base.
-Veuillez suivre les étapes ci-dessous :
+---
 
-    Ouvrez l’explorateur de fichiers.
+## 1. LOGICIELS DE BASE REQUIS
 
-    Accédez au chemin suivant :
-    C:\Users\VotreNomUtilisateur\
+### Python 3.x
+- **Version recommandée** : Python 3.8 à 3.11 (évitez Python 3.12+ pour une meilleure compatibilité)
+- Téléchargeable depuis : https://www.python.org/downloads/
+- ⚠️ **IMPORTANT** : Cochez "Add Python to PATH" lors de l'installation
 
-    Créez un nouveau dossier nommé :
-    AccesRapide
+### PyInstaller
+```bash
+pip install pyinstaller
+```
 
-    Placez dans ce dossier :
+---
 
-        L’exécutable ou le dossier de l’application Accès Rapide
+## 2. MODULES PYTHON REQUIS
 
-        Le dossier Favoris_Data
+Installez tous ces modules via pip :
 
-    ✅ Une fois ces éléments en place, l'application pourra démarrer et fonctionner normalement.
+```bash
+# Modules GUI
+pip install customtkinter
+pip install tkinter  # (normalement inclus avec Python)
+pip install pillow
+
+# Modules système Windows
+pip install pywin32
+pip install winshell
+
+# Modules réseau et utilitaires
+pip install requests
+pip install urllib3
+```
+
+---
+
+## 3. COMMANDES D'INSTALLATION COMPLÈTES
+
+Voici les commandes à exécuter dans l'ordre :
+
+```bash
+# Mise à jour de pip
+python -m pip install --upgrade pip
+
+# Installation des dépendances principales
+pip install customtkinter
+pip install pillow
+pip install pywin32
+pip install winshell
+pip install requests
+pip install pyinstaller
+
+# Vérification des installations
+pip list
+```
+
+---
+
+## 4. COMMANDE PYINSTALLER RECOMMANDÉE
+
+Pour créer l'exécutable :
+
+```bash
+pyinstaller --onefile --windowed --name "AccesRapide" --icon=icone.ico votre_script.py
+```
+
+### Options expliquées :
+- `--onefile` : Crée un seul fichier exécutable
+- `--windowed` : Masque la console (pour les apps GUI)
+- `--name` : Nom de l'exécutable
+- `--icon` : Icône de l'application (optionnel)
+
+---
+
+## 5. VÉRIFICATIONS AVANT COMPILATION
+
+### Test des imports
+Créez un fichier `test_imports.py` :
+
+```python
+try:
+    import customtkinter as ctk
+    import tkinter as tk
+    from tkinter import filedialog
+    import winshell
+    import pythoncom
+    from win32com.client import Dispatch
+    import webbrowser
+    import requests
+    import json
+    from urllib.parse import urlparse
+    from PIL import Image
+    import sys
+    import subprocess
+    import os
+    import shutil
+    print("✅ Tous les modules sont correctement installés !")
+except ImportError as e:
+    print(f"❌ Module manquant : {e}")
+```
+
+### Structure des dossiers requis
+Le dossier `Favoris_Data` avec ses sous-dossiers `data/`, `icons/`, et `favicons/` doit être présent dans :
+```
+~/AccesRapide/Favoris_Data/ (fourni avec les fichiers JSON et icônes)
+```
+
+---
+
+## 6. RÉSOLUTION DES PROBLÈMES COURANTS
+
+### Si PyInstaller échoue :
+```bash
+# Réinstallation complète
+pip uninstall pyinstaller
+pip install pyinstaller --no-cache-dir
+```
+
+### Si des modules manquent dans l'exécutable :
+```bash
+pyinstaller --onefile --windowed --hidden-import=win32com.client --hidden-import=pythoncom --name "AccesRapide" votre_script.py
+```
+
+---
+
+## 7. COMMANDE FINALE RECOMMANDÉE
+
+```bash
+pyinstaller --onefile --windowed --name "AccesRapide" --hidden-import=win32com.client --hidden-import=pythoncom votre_script.py
+```
+
+Cette commande force l'inclusion des modules COM Windows nécessaires.
+
+---
+
+## 8. ÉTAPES DE CRÉATION DE L'EXÉCUTABLE
+
+1. **Préparer l'environnement**
+   - Installer Python 3.8-3.11
+   - Installer tous les modules requis
+   - Tester les imports avec le script de vérification
+
+2. **Préparer les fichiers**
+   - Placer votre script Python dans un dossier
+   - Vérifier que le dossier `Favoris_Data` (fourni) est accessible
+   - Ajouter une icône .ico (optionnel)
+
+3. **Compiler l'exécutable**
+   - Ouvrir une invite de commande dans le dossier du script
+   - Exécuter la commande PyInstaller finale
+   - Attendre la fin de la compilation
+
+4. **Tester l'exécutable**
+   - L'exécutable se trouve dans le dossier `dist/`
+   - Tester sur votre machine
+   - Tester sur une autre machine Windows
+
+---
+
+## 9. NOTES IMPORTANTES
+
+- L'exécutable créé ne fonctionnera que sur Windows
+- Le dossier `Favoris_Data` doit rester accessible pour le bon fonctionnement
+- La première exécution peut être lente (normal)
+- Certains antivirus peuvent signaler l'exécutable comme suspect (faux positif)
+- L'exécutable sera volumineux (~50-100 MB) car il inclut Python et toutes les dépendances
+
+---
+
+## 10. DÉPANNAGE
+
+### Erreur "Module not found" :
+- Vérifiez que tous les modules sont installés : `pip list`
+- Utilisez `--hidden-import=nom_du_module` dans PyInstaller
+
+### Erreur "No module named 'win32com'" :
+- Réinstallez pywin32 : `pip uninstall pywin32 && pip install pywin32`
+
+### L'exécutable ne démarre pas :
+- Testez sans `--windowed` pour voir les erreurs
+- Vérifiez que les chemins vers les fichiers sont corrects
+
+---
+
+**✅Une fois ces étapes terminées, votre exécutable devrait fonctionner correctement sur Windows !**
