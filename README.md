@@ -92,28 +92,66 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
   </tr>
 </table>
 
-
-   
 * **Écran principal - Vue interface Dossier :**
 
      ![Ajout de Dossier Favori](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Dossier%20sombre.jpg?raw=true)
    
-* **Fenêtre d'ajout/édition de favori :**
-  
-    https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout%20favoris%20dossier.jpg
-   
-    ![Ajout de Dossier Favori](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/4.png)
+* **Écran principal - Vue interface Dossier :**
 
-    ![Ajout de Site Web Favori](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/5.png)
+     ![Ajout de Dossier Favori](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Application%20sombre.jpg?raw=true)
 
-* **Fenêtre des paramètres de thème :**
+* * **Fenêtre d'ajout de favori :**
   
-    ![Theme Settings](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/6.png)
+<table>
+  <tr>
+    <th style="text-align:center">Vue ajout de favori interface dossier</th>
+    <th style="text-align:center">Vue ajout de favori interface application</th>
+    <th style="text-align:center">Vue ajout de favori interface Web </th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout favoris dossier.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout favoris Application.jpg?raw=true" width="391"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout favoris Web.jpg?raw=true" width="391"/></td>
+  </tr>
+</table>
+
+* **Fenêtre des paramètres de l'application :**
+  
+    ![Theme Settings]([https://github.com/KiralyGeddon/Fav-Me/blob/main/images/6.png](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Parametres.jpg))
     
-* **Mode Clair :**
+* * **Fenêtre de modification d'un favori :**
   
-    ![Light Mode](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/7.png)
+<table>
+  <tr>
+    <th style="text-align:center">Vue modification d'un favori dossier</th>
+    <th style="text-align:center">Vue modification d'un favori application</th>
+    <th style="text-align:center">Vue modification d'un favori Web </th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Modification favoris Application Outlook.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Modification favoris dossier Telechargement.jpg?raw=true" width="391"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Modification favoris top desk.jpg?raw=true" width="391"/></td>
+  </tr>
+</table>
 
+* **Pop up confirmation de suppression d'un favori :**
+  
+    ![Light Mode](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Validation%20suppression%20Dymo%20label.jpg)
+
+* **~tape lors de l'ajout d'un favori dans l'interface Web :**
+
+<table>
+  <tr>
+    <th style="text-align:center">Vue ajout de favori interface dossier</th>
+    <th style="text-align:center">Renseignement des information pour l'application Youtube</th>
+    <th style="text-align:center">Vue interface Web avec l'ajout du favori You Tube</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout favoris dossier.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Ajout favoris web Youtube.jpg?raw=true" width="400"/></td>
+    <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Fin ajout Youtube dans web.jpg?raw=true" width="391"/></td>
+  </tr>
+</table>
 
 ## 📦 Technologies Utilisées
 
@@ -122,7 +160,6 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 * **[Pillow (PIL Fork)](https://python-pillow.org/)** - Pour le traitement des images (icônes, favicons)
 * **[Requests](https://requests.readthedocs.io/en/latest/)** - Pour les requêtes HTTP (téléchargement des favicons)
 * **[PyInstaller](https://pyinstaller.org/en/stable/)** - Pour compiler l'application en exécutable autonome
-* **[Inno Setup](https://jrsoftware.org/isinfo.php)** - Pour créer un installateur Windows convivial
 
 ## 🚀 Démarrage Rapide
 
@@ -170,14 +207,13 @@ Assurez-vous d'avoir Python 3.x installé sur votre système.
 
 3.  **Exécutez PyInstaller** :
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --icon="Logo_Raccourci.png" --add-data "../Favoris_Data/Icons;Icons" --add-data "../Favoris_Data/Favicons;Favicons" --add-data "../Favoris_Data/data;data" "AccesRapide.py"
+    pyinstaller --noconfirm --onefile --windowed --icon="Logo_Raccourci.png" "AccesRapide.py"
     ```
     * `--noconfirm` : Écrase les anciens fichiers `dist/` et `build/` sans confirmation.
     * `--onefile` : Crée un seul fichier exécutable.
     * `--windowed` : Empêche l'ouverture d'une console (pour les applications GUI).
     * `--icon="Logo_Raccourci.png" : Spécifie l'icône de l'exécutable (assurez-vous que Logo_Raccourci.png est dans le même répertoire ou spécifiez le chemin complet).
-    * `--add-data "Favoris_Data/icons;icons" : Inclut le dossier icons dans l'exécutable.
-    * `--add-data "Favoris_Data/settings.json;." et --add-data "Favoris_Data/favs.json;." : Incluent les fichiers de config et données.
+
 
     L'exécutable sera généré dans le dossier `dist/`.
 
