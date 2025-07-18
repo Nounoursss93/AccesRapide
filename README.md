@@ -64,7 +64,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Supprimez les sites web obsolètes de votre liste.
 
 * **🔄 Bascule Rapide :**
-    * Passez instantanément de la vue des dossiers à la vue des sites web ou encore à la vue de vos applications grâce aux boutons dédiés.
+    * Passez instantanément de la vue des dossiers, à la vue des sites web ou encore à la vue des applications grâce aux boutons dédiés.
 
 * **🎨 Thèmes Personnalisables :**
     * Choisissez entre les modes d'apparence **Sombre** ou **Clair**.
