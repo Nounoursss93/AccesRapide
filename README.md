@@ -45,7 +45,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Supprimez les dossiers devenus obsolètes.
     * Vérification automatique de l'existence des chemins de dossiers au démarrage.
  
- * **📁 Gestion des Applications Favorites :**
+ * **🧩 Gestion des Applications Favorites :**
     * Ajoutez votre application en renseignant le chemun ou se trouve son exécutable.
     * Ouvrez les applications directement via l'explorateur (Windows).
     * Modifiez facilement le nom, l'icône ou le chemin d'une application existante.
