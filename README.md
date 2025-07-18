@@ -75,7 +75,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **✨ Interface Intuitive :**
     * Design épuré et facile à utiliser grâce à CustomTkinter.
-    * Icônes dédiées pour chaque action (ajouter, modifier, supprimer).
+    * Icônes dédiées pour chaque action (Thème, modifier, supprimer, paramètre).
 
 ## 📸 Aperçu
 
