@@ -50,7 +50,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Ouvrez les applications directement via l'explorateur (Windows).
     * Modifiez facilement le nom, l'icône ou le chemin d'une application existante.
     * Icône par défaut pour les application.
-    * Choisir l'icone de votre choix parmis un catalogue.
+    * Choisir l'icône de votre choix parmis un catalogue.
     * Supprimez les applications devenus obsolètes.
     * Vérification automatique de l'existence des chemins des applications au démarrage.
 
@@ -58,8 +58,8 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Enregistrez vos URLs préférées.
     * Ouvrez les sites web dans votre navigateur par défaut.
     * **Récupération automatique des Favicons** : L'application tente de télécharger et d'afficher l'icône de chaque site web pour une identification visuelle rapide.
-    * Icône par défaut pour les liens dont les sites ne permettent pas la récupération des icones.
-    * Choisir l'icone de votre choix parmis un catalogue.
+    * Icône par défaut pour les liens dont les sites ne permettent pas la récupération des icônes ( et si vous n'en choisissez pas ).
+    * Choisir l'icône de votre choix parmis un catalogue.
     * Modifiez facilement l'URL, l'icône ou le nom d'un site web.
     * Supprimez les sites web obsolètes de votre liste.
 
