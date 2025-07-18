@@ -83,8 +83,8 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 <table>
   <tr>
-    <th style="text-align:center">Vue Web Sombre</th>
-    <th style="text-align:center">Vue Web Clair</th>
+    <th style="text-align:center">Thème Sombre</th>
+    <th style="text-align:center">Thème Clair</th>
   </tr>
   <tr>
     <td><img src="https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Web%20Sombre.jpg?raw=true" width="400"/></td>
