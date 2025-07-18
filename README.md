@@ -79,7 +79,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 ## 📸 Aperçu
 
-* **Écran principal - Vue interface Web **
+* **Écran principal - Vue interface Web :**
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
      ![Ajout de Dossier Favori](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Dossier%20sombre.jpg?raw=true)
    
-* **Écran principal - Vue interface Dossier :**
+* **Écran principal - Vue interface Application :**
 
      ![Ajout de Dossier Favori](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Application%20sombre.jpg?raw=true)
 
@@ -117,7 +117,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **Fenêtre des paramètres de l'application :**
   
-    ![Theme Settings]([https://github.com/KiralyGeddon/Fav-Me/blob/main/images/6.png](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Parametres.jpg))
+    (https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Parametres.jpg))
     
 * * **Fenêtre de modification d'un favori :**
   
@@ -136,7 +136,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 * **Pop up confirmation de suppression d'un favori :**
   
-    ![Light Mode](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Validation%20suppression%20Dymo%20label.jpg)
+    (https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Validation%20suppression%20Dymo%20label.jpg)
 
 * **~tape lors de l'ajout d'un favori dans l'interface Web :**
 
