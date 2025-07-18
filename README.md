@@ -83,7 +83,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 <table>
   <tr>
-    <th style="text-align:center">Vue Web Foncé</th>
+    <th style="text-align:center">Vue Web Sombre</th>
     <th style="text-align:center">Vue Web Clair</th>
   </tr>
   <tr>
