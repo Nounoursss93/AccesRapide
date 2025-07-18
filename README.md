@@ -41,7 +41,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
     * Ouvrez les dossiers directement via l'explorateur (Windows) ou le Finder (macOS).
     * Modifiez facilement le nom, l'icône ou le chemin d'un dossier existant.
     * Icône par défaut pour les dossier.
-    * Choisir l'icone de votre choix parmis un catalogue.
+    * Choisir l'icône de votre choix parmis un catalogue.
     * Supprimez les dossiers devenus obsolètes.
     * Vérification automatique de l'existence des chemins de dossiers au démarrage.
  
