@@ -79,7 +79,7 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 ## 📸 Aperçu
 
-* **Écran principal - Vue Web thème sombre :**                    **Écran principal - Vue Web thème clair :**
+* **Écran principal - Vue interface Web **
 
 <table>
   <tr>
@@ -94,9 +94,9 @@ Construite avec `CustomTkinter` pour une interface utilisateur moderne et person
 
 
    
-* **Écran principal - Vue Sites Web (avec favicons) :**
-  
-    ![Favoris Websites](https://github.com/KiralyGeddon/Fav-Me/blob/main/images/2.png)
+* **Écran principal - Vue interface Dossier :**
+
+     ![Ajout de Dossier Favori](https://github.com/Nounoursss93/AccesRapide/blob/main/Images/Dossier%20sombre.jpg?raw=true)
    
 * **Fenêtre d'ajout/édition de favori :**
   
